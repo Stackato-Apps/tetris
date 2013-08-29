@@ -5,4 +5,4 @@ framework:
 hooks:
   pre-running:
     - npm install
-command: sleep 365d
+command: sleep 9001d
