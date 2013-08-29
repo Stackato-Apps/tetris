@@ -1,15 +1,18 @@
-# tetris
+Tetris
+======
 
-Play tetris in your terminal - in color
+Tetris while you ops
 
-	npm install -g tetris
+## Deploy
+
+Play tetris in your terminal - in color - on Stackato!
+
+	stackato push -n
 
 ## How do I play?
 
 ![tetris](https://raw.github.com/mafintosh/tetris/master/tetris.png)
 
-Simply open a terminal and run `tetris`
+Simply open a terminal and run
 
-	$ tetris
-
-It even works over ssh so you can tetris while you ops
+	$ stackato ssh "node tetris"
