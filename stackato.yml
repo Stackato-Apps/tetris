@@ -1,0 +1,8 @@
+name: tetris
+framework:
+  type: standalone
+  runtime: node010
+hooks:
+  pre-running:
+    - npm install
+command: sleep 365d
