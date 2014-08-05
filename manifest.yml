@@ -1,0 +1,10 @@
+applications:
+- name: tetris
+  command: sleep 9001d
+  framework:
+    name: standalone
+  runtime: node010
+  stackato:
+    hooks:
+      pre-running:
+      - npm install
