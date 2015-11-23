@@ -5,7 +5,7 @@ Tetris while you ops
 
 ## Deploy
 
-Play tetris in your terminal - in color - on Stackato!
+Play tetris in your terminal - in color - on HPE Helion Stackato!
 
 	stackato push -n
 
