@@ -15,4 +15,5 @@ Play tetris in your terminal - in color - on HPE Helion Stackato!
 
 Simply open a terminal and run
 
-	$ stackato ssh "node tetris"
+	$ stackato ssh
+        tetris:~$ node tetris
