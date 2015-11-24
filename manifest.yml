@@ -1,3 +1,4 @@
 applications:
 - name: tetris
+  memory: 32M
   urls: []
