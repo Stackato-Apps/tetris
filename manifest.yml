@@ -1,4 +1,7 @@
 applications:
 - name: tetris
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  health-check-type: none
   memory: 32M
-  urls: []
+  no-route: true
+  stack: cflinuxfs2
